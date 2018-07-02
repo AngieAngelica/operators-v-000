@@ -10,4 +10,4 @@ def not_safe?(speed)
 end
 	
 
-
+#test-expression ? if-true-expression : if-false-expression
