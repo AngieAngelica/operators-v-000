@@ -6,11 +6,8 @@ def unsafe?(speed)
 end
 
 def not_safe?(speed)
-  speed > 60 ? "not safe" : "safe" 
-  speed < 40 ? "not safe" : "safe"
-  speed >= 40 && <= 60 ? "safe" : "not safe"
+  speed <=40 || speed >=60 ? true : false
   end
-	
 
 # test-expression ? if-true-expression : if-false-expression
 # age < 2 ? "baby" : "not a baby"
